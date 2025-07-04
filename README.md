@@ -1,2 +1,23 @@
-# tesis-uji-akurasi-tsi
-Skrip Python untuk mengevaluasi akurasi hasil pemodelan Trophic State Index (TSI) berdasarkan data observasi dan prediksi. Metrik evaluasi meliputi Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), dan R-squared. Dilengkapi visualisasi scatter plot perbandingan nilai observasi dan prediksi.
+# Uji Akurasi Prediksi TSI
+
+Repositori ini berisi skrip untuk menghitung akurasi hasil prediksi Trophic State Index (TSI) menggunakan metrik MAE, RMSE, dan R-squared.
+
+## Cara Menjalankan
+
+1. Install dependensi:
+   pip install -r requirements.txt
+
+2. Pastikan file CSV berisi dua kolom:
+
+- `observed`: nilai TSI pengamatan
+- `predicted`: nilai TSI prediksi
+
+3. Jalankan skrip:
+   python uji_akurasi_tsi.py
+
+## Dependensi
+
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
